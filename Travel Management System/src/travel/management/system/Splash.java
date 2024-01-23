@@ -22,7 +22,7 @@ public class Splash extends JFrame {
         Splash frame = new Splash();
         int x = 1;
         for (int i = 1; i <= 500; x += 7, i += 6) {
-            frame.setLocation(750 - (x+i), 400 - (i/2));
+            frame.setLocation(i, 1);
             frame.setSize(x * i, i);
             try {
                 Thread.sleep(10);
